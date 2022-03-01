@@ -1,0 +1,441 @@
+[
+  {
+    "action": "统计&&",
+    "icon": "",
+    "name": "统计",
+    "url": "",
+    "sub": [
+      {
+        "action": "渠道分析&&",
+        "icon": "",
+        "name": "渠道分析",
+        "url": "/business/channelAnalysis",
+        "webRouter": null,
+        "sub": [
+          {
+            "action": "渠道分析1&&",
+            "icon": "",
+            "name": "渠道分析1",
+            "url": "/business/channelAnalysis/anal",
+            "webRouter": null,
+            "sub": []
+          }
+        ]
+      },
+      {
+        "action": "概况&&",
+        "icon": "",
+        "name": "概况",
+        "url": "/business/general",
+        "webRouter": null,
+        "sub": [
+          {
+            "action": "整体趋势&&",
+            "icon": "",
+            "name": "整体趋势",
+            "url": "/business/general/overallTrend",
+            "webRouter": null,
+            "sub": []
+          }
+        ]
+      },
+      {
+        "action": "用户构成&&",
+        "icon": "",
+        "name": "用户构成",
+        "url": "/business/userConstitute",
+        "webRouter": null,
+        "sub": [
+          {
+            "action": "周用户构成&&",
+            "icon": "",
+            "name": "周用户构成",
+            "url": "/business/userConstitute/weekUser",
+            "webRouter": null,
+            "sub": []
+          }
+        ]
+      },
+      {
+        "action": "用户分析&&",
+        "icon": "",
+        "name": "用户分析",
+        "url": "/business/userAnalysis",
+        "webRouter": null,
+        "sub": [
+          {
+            "action": "新增用户&&",
+            "icon": "",
+            "name": "新增用户",
+            "url": "/business/userAnalysis/newUser",
+            "webRouter": null,
+            "sub": []
+          },
+          {
+            "action": "活跃用户&&",
+            "icon": "",
+            "name": "活跃用户",
+            "url": "/business/userAnalysis/activeUser",
+            "webRouter": null,
+            "sub": []
+          },
+          {
+            "action": "启动次数&&",
+            "icon": "",
+            "name": "启动次数",
+            "url": "/business/userAnalysis/num",
+            "webRouter": null,
+            "sub": []
+          },
+          {
+            "action": "版本分布&&",
+            "icon": "",
+            "name": "版本分布",
+            "url": "/business/userAnalysis/version",
+            "webRouter": null,
+            "sub": []
+          }
+        ]
+      },
+      {
+        "action": "留存分析&&",
+        "icon": "",
+        "name": "留存分析",
+        "url": "/business/retainedAnalysis",
+        "webRouter": null,
+        "sub": [
+          {
+            "action": "留存用户&&",
+            "icon": "",
+            "name": "留存用户",
+            "url": "/business/retainedAnalysis/keepUser",
+            "webRouter": null,
+            "sub": []
+          },
+          {
+            "action": "用户新鲜度&&",
+            "icon": "",
+            "name": "用户新鲜度",
+            "url": "/business/retainedAnalysis/userFresh",
+            "webRouter": null,
+            "sub": []
+          },
+          {
+            "action": "用户活跃度&&",
+            "icon": "",
+            "name": "用户活跃度",
+            "url": "/business/retainedAnalysis/userActive",
+            "webRouter": null,
+            "sub": []
+          }
+        ]
+      },
+      {
+        "action": "功能使用&&",
+        "icon": "",
+        "name": "功能使用",
+        "url": "/business/funct",
+        "webRouter": null,
+        "sub": [
+          {
+            "action": "自定义事件&&",
+            "icon": "",
+            "name": "自定义事件",
+            "url": "/business/funct/CustomEvents",
+            "webRouter": null,
+            "sub": []
+          }
+        ]
+      }
+    ]
+    
+  },
+  {
+    "action": "系统&&",
+    "icon": "",
+    "id": 2,
+    "name": "系统",
+    "sub": [
+      {
+        "action": "设置中心&&",
+        "icon": "",
+        "id": 8,
+        "name": "设置中心",
+        "url": "/system/roleManage",
+        "webRouter": null,
+        "sub": [
+          {
+            "action": "角色管理&&",
+            "icon": "",
+            "id": 9,
+            "name": "角色管理",
+            "url": "/system/setCenter/roleManage",
+            "webRouter": null,
+            "sub": [
+              {
+                "action": "列表&&",
+                "icon": "",
+                "id": 16,
+                "name": "列表",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "添加角色&&",
+                "icon": "",
+                "id": 17,
+                "name": "添加角色",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "编辑&&",
+                "icon": "",
+                "id": 38,
+                "name": "编辑",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "删除&&",
+                "icon": "",
+                "id": 39,
+                "name": "删除",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              }
+            ]
+          },
+          {
+            "action": "用户管理&&",
+            "icon": "",
+            "id": 10,
+            "name": "用户管理",
+            "sub": [
+              {
+                "action": "列表&&other",
+                "icon": "",
+                "id": 40,
+                "name": "列表",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "添加用户&&create",
+                "icon": "",
+                "id": 41,
+                "name": "添加用户",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "编辑&&operation",
+                "icon": "",
+                "id": 42,
+                "name": "编辑",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "删除&&operation",
+                "icon": "",
+                "id": 43,
+                "name": "删除",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              }
+            ],
+            "url": "/system/setCenter/userManage",
+            "webRouter": null
+          },
+          {
+            "action": "权限管理&&",
+            "icon": "",
+            "id": 11,
+            "name": "权限管理",
+            "sub": [
+              {
+                "action": "列表&&",
+                "icon": "",
+                "id": 62,
+                "name": "列表",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "添加菜单&&",
+                "icon": "",
+                "id": 63,
+                "name": "添加菜单",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "编辑菜单&&",
+                "icon": "",
+                "id": 64,
+                "name": "编辑菜单",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "删除菜单&&",
+                "icon": "",
+                "id": 65,
+                "name": "删除菜单",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              }
+            ],
+            "url": "/system/setCenter/powerManage",
+            "webRouter": null
+          }
+        ]
+      },
+      {
+        "action": "配置管理&&",
+        "icon": "",
+        "id": 12,
+        "name": "配置管理",
+        "sub": [
+          {
+            "action": "应用管理&&",
+            "icon": "",
+            "id": 13,
+            "name": "应用管理",
+            "sub": [
+              {
+                "action": "列表&&",
+                "icon": "",
+                "id": 14,
+                "name": "列表",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "添加应用&create&operation",
+                "icon": "",
+                "id": 15,
+                "name": "添加应用",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "编辑&edit&operation",
+                "icon": "",
+                "id": 26,
+                "name": "编辑",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "删除&del&operation",
+                "icon": "",
+                "id": 27,
+                "name": "删除",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              }
+            ],
+            "url": "/system/deployMoudel/applyManage",
+            "webRouter": null
+          },
+          {
+            "action": "事件管理&&",
+            "icon": "",
+            "id": 37,
+            "name": "事件管理",
+            "sub": [
+              {
+                "action": "列表&&",
+                "icon": "",
+                "id": 57,
+                "name": "列表",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "添加&&",
+                "icon": "",
+                "id": 58,
+                "name": "添加",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "编辑&&",
+                "icon": "",
+                "id": 60,
+                "name": "编辑",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              },
+              {
+                "action": "删除&&",
+                "icon": "",
+                "id": 61,
+                "name": "删除",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              }
+            ],
+            "url": "/system/deployMoudel/incidentManage",
+            "webRouter": null
+          }
+        ],
+        "url": "deployMoudel/applyManage",
+        "webRouter": null
+      },
+      {
+        "action": "日志管理&&",
+        "icon": "",
+        "id": 32,
+        "name": "日志管理",
+        "sub": [
+          {
+            "action": "日志列表&&",
+            "icon": "",
+            "id": 35,
+            "name": "日志列表",
+            "sub": [
+              {
+                "action": "列表&&",
+                "icon": "",
+                "id": 51,
+                "name": "列表",
+                "sub": [],
+                "url": "",
+                "webRouter": null
+              }
+            ],
+            "url": "/system/logManagement/logList",
+            "webRouter": null
+          }
+        ],
+        "url": "logManagement/logList",
+        "webRouter": null
+      }
+    ],
+    "url": ""
+  }
+]
